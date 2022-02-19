@@ -1,0 +1,206 @@
+/* Ignore following classes */
+
+* {
+    font-family: "Montserrat", sans-serif;
+    background-color: #eeeeee;
+  }
+  
+  #intro {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 50px;
+  }
+  
+  .insideborder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .para {
+    font-weight: 300;
+    margin-left: 10px;
+  }
+  
+  h2 {
+    font-size: medium;
+    font-weight: 200;
+  }
+  
+  /* Classes that you might find useful */
+  /* Note* These classes do not cover every possibloe case to build you flags, you will have to continue to add your own*/
+  
+  .flag {
+    height: 300px;
+    width: 500px;
+    margin-bottom: 5rem;
+  }
+  
+  .horiz {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .gr-top {
+    display: flex;
+    flex-direction: row;
+    height: 165px;
+    width: 500px;
+  }
+
+  .gr-top-stripbox {
+    display: flex;
+    flex-direction: column;
+    height: 165px;
+    width: 315px;
+  }
+
+  .gr-top-strips {
+    height: 33px;
+    width: 315px;
+  }
+
+  .gr-strips {
+    height: 33px;
+    width: 500px;
+  }
+
+  .gr-big-square {
+    display: flex;
+    flex-direction: row;
+    height: 165px;
+    width: 185px;
+  }
+
+  .gr-big-square-vert {
+    display: flex;
+    flex-direction: column;
+    height: 165px;
+    width: 74px;
+  }
+  
+  .greecesquare {
+    height: 71px;
+    width: 74px;
+  }
+
+  .grsquare-horiz {
+    height: 33px;
+    width: 74px;
+  }
+
+  .gr-vert {
+    display: flex;
+    flex-direction: column;
+    height: 165px;
+    width: 37px;
+  }
+
+  .twovert {
+    height: 50%;
+  }
+  
+  .threevert {
+    height: 33.3%;
+  }
+  
+  .threehoriz {
+    width: 33.3%;
+  }
+
+  .threehorizpic {
+    width: 33.3%;
+    position:relative;
+    background-color: #fff;
+  }
+
+  .threehorizeagle {
+    width: 80%;
+    position:absolute;
+    padding-top: 100px;
+    padding-left: 15px;
+    background-color: #fff;
+  }
+  
+  .skinny {
+    height: 17.5%;
+  }
+  
+  .fat {
+    height: 30%;
+  }
+  
+  .circle {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 85px;
+    top: 50px;
+  }
+  
+  /* Colors/ Feel free to add your own! */
+  
+  .red {
+    background-color: red;
+  }
+  
+  .thaired {
+    background-color: #a51931;
+  }
+
+  .romaniared {
+    background-color: #ce1126;
+  }
+
+  .orange {
+    background-color: orange;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+
+  .romaniayellow {
+    background-color: #fcd116;
+  }
+  
+  .green {
+    background-color: green;
+  }
+
+  .mexigreen {
+    background-color: #006341;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
+  .lightblue {
+    background-color: lightblue;
+  }
+  
+  .luxemblue {
+    background-color: #00A2E1;
+  }
+
+  .grblue {
+    background-color: #0d5eaf;
+  }
+
+  .thaiblue {
+    background-color: #2d2a4a;
+  }
+
+  .romaniablue {
+    background-color: #002b7b;
+  }
+
+  .purple {
+    background-color: purple;
+  }
+  
+  .white {
+    background-color: #fff;
+  }
