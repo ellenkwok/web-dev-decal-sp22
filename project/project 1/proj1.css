@@ -1,0 +1,181 @@
+* {
+    font-family: 'Varela Round';
+    margin: 0px;
+    background: linear-gradient(
+      to right, 
+      #fafcff 0%, 
+      #fafcff 63%, 
+      #7154f1 63%, 
+      #7154f1 100%
+    );
+    }
+
+  a {
+    font-family: 'Varela Round';
+    font-size: 20px;
+    color: #fafcff;
+    background: #7154f1;
+    text-decoration: none;
+  }
+
+  h1 {
+    font-family: 'Varela Round';
+    font-size: 60px;
+    color: #7154f1;
+    background: #fafcff;
+    font-weight: 500;
+  }
+
+  .white-button-text {
+    font-family: 'Varela Round';
+    font-size: 20px;
+    color: #fafcff;
+    background:#7154f1;
+  }
+
+  h2 {
+    font-family: 'Varela Round';
+    font-size: 25px;
+    color: #7154f1;
+    background: #fafcff;
+    padding-left: 10px;
+    font-weight: 400;
+  }
+
+  h3 {
+    font-family: 'Varela Round';
+    font-size: 18px;
+    color: #7d6acf;
+    background: #fafcff;
+    font-weight: 400;
+    margin: 5px;
+  }
+  
+  #intro {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 50px;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  /* For the aesthetics */
+  .nav-button {
+    border-style: solid;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: #fafcff;
+    background: #7154f1;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+
+  .action-button {
+    background: #7154f1;
+    width: 150px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  
+  .front-page-box {
+    display: flex;
+    flex-direction: column;
+    background: #fafcff;
+    width: 550px;
+    padding-left: 120px;
+  }
+
+  .front-page {
+    display: flex;
+    flex-direction: row;
+    background: transparent;
+  }
+
+  .design-logo {
+    display: flex;
+    flex-direction: row;
+    background: transparent;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: #7154f1;
+    margin-top: 50px;
+    margin-bottom: 50;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding: 30px;
+    width: 1500;
+  }
+  
+  .design-flyer {
+    display: flex;
+    flex-direction: row;
+    background: transparent;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: #7154f1;
+    margin-top: 50px;
+    margin-bottom: 50;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding: 30px;
+  }
+
+  .para {
+    font-weight: 300;
+    margin-left: 10px;
+  }
+  
+  
+  
+  /* Classes that you might find useful */
+  /* Note* These classes do not cover every possibloe case to build you flags, you will have to continue to add your own*/
+
+  
+  .horiz {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .twovert {
+    height: 50%;
+  }
+  
+  .threevert {
+    height: 33.3%;
+  }
+  
+  
+  .skinny {
+    height: 17.5%;
+  }
+  
+  .fat {
+    height: 30%;
+  }
+  
+  .circle {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 85px;
+    top: 50px;
+  }
+  
+  /* Colors/ Feel free to add your own! */
+
+  .white {
+    background-color: #fff;
+  }
+
